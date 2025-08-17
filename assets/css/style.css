@@ -79,7 +79,7 @@ section {
 .usuario {
   display: flex;
   border: 1.5px solid #e8ebe4;
-  padding: 15px 25px;
+  padding: 12px 25px;
   justify-content: flex-start;
   align-items: center;
 }
