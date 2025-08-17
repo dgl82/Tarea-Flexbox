@@ -2,3 +2,77 @@
   margin: 0;
   padding: 0;
 }
+
+section {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.contactos {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 15%;
+}
+
+.principal {
+  width: calc(100vw - 15%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.usuario_seleccionado {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid #e8ebe4;
+}
+
+.maria {
+  display: flex;
+}
+
+.tiny_thumbnail img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #e8ebe4;
+}
+
+.iconos_font {
+  display: flex;
+  align-items: center;
+}
+
+.manos img {
+  height: 300px;
+  width: 300px;
+}
+
+.titulo h1 {
+  font-size: 45px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.nombre {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.mensaje {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  color: #bec1bb;
+}
