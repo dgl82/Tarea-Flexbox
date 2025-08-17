@@ -37,6 +37,7 @@ section {
 
 .estado {
   padding-left: 10px;
+  text-align: left;
 }
 
 .tiny_thumbnail img {
@@ -123,7 +124,6 @@ section {
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  padding-left: 5px;
 }
 
 .accion {
