@@ -32,6 +32,7 @@ section {
 
 .maria {
   display: flex;
+  align-items: center;
 }
 
 .estado {
@@ -74,6 +75,21 @@ section {
   width: 190px;
 }
 
+.usuario {
+  display: flex;
+  border: 2px solid #e8ebe4;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  border: 2px solid #e8ebe4;
+}
+
 .manos img {
   height: 300px;
   width: 300px;
@@ -102,19 +118,28 @@ section {
 
 .nombre {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   padding-left: 5px;
 }
 
-.mensaje {
+.accion {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 10px;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   color: #bec1bb;
+}
+
+.mensaje {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
